@@ -81,8 +81,11 @@ def get_infections():
                     json.dump(masterDataSet, outfile, indent=2)
             results = get_infected_ids(id)
             os.remove("live_dataset.json")
-            # masterDataSet = []
-            return (jsonify(results))
+            response = {
+                "id": id,
+                "potential_infected_ids": results
+            }
+            return (jsonify(response))
     else:
         return "Error: Please specify an ID to identify potential infections."
 
