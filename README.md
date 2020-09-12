@@ -19,3 +19,10 @@ The algorithm is explained in the Jupyter Notebook with comments. If you have an
 ### Future enhancements
 
 * If time provides, I will explore more ways to perform contact tracing using other machine learning algorithms and techniques such as spacio temporal analysis etc.
+
+## License
+
+I have chosen to license my work under GNU GPLv3 license. 
+Dependencies and derivative work are applicable under respective licenses.
+
+Copyright (c) 2020 Madhusudhan Kumble and PRANA authors
