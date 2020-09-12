@@ -1,1 +1,5 @@
 /justfile
+/.idea
+/.ipynb_checkpoints
+/.vscode
+/.jovianrc
